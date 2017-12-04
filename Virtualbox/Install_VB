@@ -1,0 +1,51 @@
+In this exercise, you'll see how easy it is to download VirtualBox and install it in a Windows XP system.
+
+Open your Web browser, and type http://www.virtualbox.org in the address bar. The VirtualBox main page will appear:
+
+Click on the Downloads link located in the left sidebar. The Download VirtualBox page will show up:
+
+Now click on the x86/amd64 link at the right of the VirtualBox 3.1.X for Windows hosts line. A dialog box will pop up, asking if you want to open or save the VirtualBox installation file. Click on Save to start downloading this file.
+
+Once the downloading process ends, double-click on the downloaded file (it should be something like VirtualBox-3.X.X-X-Win.exe), and wait for the Do you want to open this file? warning dialog box to appear. Click on Run, and the Sun xVM VirtualBox Setup dialog will appear:
+
+Click on the Next button to start installing VirtualBox on your PC. The next dialog will ask you to read the VirtualBox Personal Use and Evaluation License (PUEL). If you agree with it, select the I accept the terms in the License Agreement radio button, and click on Next to continue.
+
+The next dialog, Custom Setup, will show you the VirtualBox features that will be installed as well as the installation directory. Leave the default options, and click on Next to continue:
+
+
+On the next dialog, you need to choose if you want to create a shortcut to run VirtualBox from the desktop and/or from the Quick Task Bar. You can leave both options selected, and click on Next to continue.
+
+The next dialog will warn you about temporarily disconnecting you from the local area network because the setup program will install the Sun xVM VirtualBox Networking feature:
+
+Click on Yes, and then on Install to start installing VirtualBox on your computer:
+
+Once the installation process finishes, you'll see the following dialog:
+
+Click on Finish to exit the setup wizard and open the VirtualBox main window. The VirtualBox Registration Dialog will appear next:
+
+If you already have a Sun account, just fill in your email and password, and click on the Register button to register your copy of VirtualBox. If this is the first time you're using a Sun product, select the I would like to register creating a new Sun Online account radio button, and fill in the required fields. Then click on Register. Once you register with Sun, you'll see the following success dialog:
+
+Now click on the OK button to go to the VirtualBox main screen:
+
+What just happened?
+See how easy it was to download and install VirtualBox on Windows? And wait until you start using it! You'll start wondering why someone didn't come up with VirtualBox ten years ago! Seriously speaking, however, you can use VirtualBox on the following Windows platforms:
+
+Windows XP, all service packs (32-bit)
+Windows Server 2003 (32-bit)
+Windows Vista (32-bit and 64-bit).
+Windows Server 2008 (32-bit and 64-bit)
+Windows 7 (32-bit and 64-bit)
+And the installation process is very similar, if not identical, on most Windows versions. Just be sure to have enough RAM for your physical 'host' PC and one or more 'guest' virtual machines. Oh, and you have to be careful with hard disk space also! But you don't need to worry about that right now; we'll cover all those things throughout the exercises in this book.
+
+This chapter was a hands-on introduction to VirtualBox, the best virtualization software out there!
+
+Specifically, we covered:
+
+What virtualization is, and how we can use VirtualBox to run several virtual machines inside a physical host
+How to install VirtualBox on Windows environments
+How to install VirtualBox on Linux environments
+How to create, configure, and run a test virtual machine
+Now that you have VirtualBox installed and running, you're ready to delve into the VirtualBox world! In the following chapter, I'll show you how to create, configure, and run your own Ubuntu Linux virtual machine in any host operating system supported by VirtualBox!
+
+Creating Your Second Virtual Machine: Windows 7
+In this chapter, you'll get to install Windows 7 on a virtual machine. I used a Windows XP host computer for the exercises, but you can use any host supported by VirtualBox.

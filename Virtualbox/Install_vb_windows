@@ -1,0 +1,21 @@
+Creating Your Second Virtual Machine: Windows 7
+In this chapter, you'll get to install Windows 7 on a virtual machine. I used a Windows XP host computer for the exercises, but you can use any host supported by VirtualBox.
+
+In this chapter you shall:
+
+Create your second virtual machine in VirtualBox using Microsoft Windows 7
+Learn about your virtual machine's basic configuration
+Install Windows 7 on your virtual machine
+Learn how to use the VirtualBox host key and to 'capture'/'uncapture' the mouse and keyboard in your virtual machine
+Learn to run your Windows 7 virtual machine and test some basic functions like using Internet Explorer and installing the Microsoft Office 2007 trial edition
+Learn how to start and stop your virtual machine
+So let's get on with it...
+
+You'll need a Windows XP/Vista/7 original CD or ISO image for the exercises in this chapter. I wrote the exercises using a Windows 7 DVD (32-bits), but the process is very similar for any other Windows version. If you have any questions or doubts about the exercises or the Windows version you plan to use, don't hesitate to send an email to <questions@packtpub.com>.
+
+Creating your Windows VM
+If you read Chapter 1, this is going to be your second virtual machine on VirtualBox. Maybe you're thinking, "Nah, I'll skip this chapter 'cause I already know how to use Windows 7." Well, what if you wanted to try a new software application but were afraid to mess up your main computer at work? You could create a Windows 7 virtual machine and test the software application on it to keep your main PC completely isolated in case anything went wrong. How about that?
+
+There are a lot of things you can do with a Windows 7 virtual machine inside a Windows XP host PC. Just think of a VM as if it were a separate PC where you can test software, or you can even share one physical PC with two or more people, creating a virtual machine for you and your colleagues! Now let's keep on reading...
+
+CopyAdd Highlight Add Note
