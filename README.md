@@ -1,32 +1,32 @@
-# DevOps Course Listing 
+# DevOps Course Contents Listing 
 
-[Continous Integration Course](./ContinousIntegration/README.md)
+[Continous Integration Course Contents](./ContinousIntegration/README.md)
 
-[Ruby Course](./Ruby/README.md)
+[Ruby Course Contents](./Ruby/README.md)
 
-[Git Course](./Git/README.md)
+[Git Course Contents](./Git/README.md)
 
-[Virtualbox Course](./Virtualbox/README.md)
+[Virtualbox Course Contents](./Virtualbox/README.md)
 
-[Linux Course](./Linux/README.md)
+[Linux Course Contents](./Linux/README.md)
 
-[Packer Course](./Packer/README.md)
+[Packer Course Contents](./Packer/README.md)
 
-[Vagrant Course](./Vagrant/README.md)
+[Vagrant Course Contents](./Vagrant/README.md)
 
-[Jenkins Course](./Jenkins/README.md)
+[Jenkins Course Contents](./Jenkins/README.md)
 
-[Automated Testing Course](./AutomatedTesting/README.md)
+[Automated Testing Course Contents](./AutomatedTesting/README.md)
 
-[Chef Course](./Chef/README.md)
+[Chef Course Contents](./Chef/README.md)
 
-[Ansible Course](./Ansible/README.md)
+[Ansible Course Contents](./Ansible/README.md)
 
-[Build Tools Course](./BuildTools/README.md)
+[Build Tools Course Contents](./BuildTools/README.md)
 
-[Artifactory Course](./Artifactory/README.md)
+[Artifactory Course Contents](./Artifactory/README.md)
 
-[Docker Course](./Docker/README.md)
+[Docker Course Contents](./Docker/README.md)
 
 # DevOps Training Roadmap
 
