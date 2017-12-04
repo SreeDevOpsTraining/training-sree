@@ -1,5 +1,5 @@
 # DevOps Course Listing 
-[Continous Integration Course](https//github.com/SreeDevOpsTraining/training-sree/tree/master/ContinousIntegration)
+[Continous Integration Course](./ContinousIntegration/README.md)
 
 [Ruby Course](./Ruby/README.md)
 
