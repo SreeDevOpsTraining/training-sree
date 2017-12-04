@@ -1,35 +1,37 @@
-# Ruby Programs execution
-
-## Install Ruby on Windows
-
-* goto website https://rubyinstaller.org/downloads/ and click on latest ruby install to install ruby
-
-Or
-
-## Install Chocolatey from https://chocolatey.org/install
-
-* Execute the below command using windows cmd as an administrator. 
-
-`@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
-
-Once chocolatey is installed
-
-run below command at cmd prompt 
-
-`choco install ruby`
-
-## Install Ruby on Mac using Homebrew
-
-* goto website https://brew.sh/
-
-* run the following command
-
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
-* Check if Homebrew installed properly 
-
-`brew --version`
-
-* Install Ruby using brew
-
-`brew install ruby`
+# An introduction to Ruby
+* Installing Ruby
+* Interactive Shell Demo
+* IDE Options and RubyMine Demo
+* Variables, nil, Methods and Scope
+* Flow Control, Operators, Comments
+* Some Useful Methods
+* Classes and Objects
+* Creating Classes and Objects
+* Instance Variables and Methods
+* Accessors and Virtual Attributes
+* Initialization and Cleanup
+* Inheritance
+* Class Methods and Variables
+* Method Visibility\
+* Executable Class Bodies and self
+* Flow Control Using and/or
+* Case Statement
+* Looping Constructs
+* Looping with Iterators and Blocks
+* Controlling Loop Flow
+* Handling Exceptions
+* Raising Exceptions
+* Standard Types
+* Booleans
+* Numbers
+* Strings
+* String Operators and Methods
+* Regular Expressions
+* Symbols
+* Arrays
+* Enumerable
+* Hashes
+* Operators
+* Method Calls as Messages
+* Blocks, Constants, Modules
+* Organizing Source Code
