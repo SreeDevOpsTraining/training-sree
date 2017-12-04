@@ -5,7 +5,6 @@
 * Discussing ansible inventory
 * Hands on use of inventory file
 * Configuring ansible
-* Ansible Modules25m 17s
+* Ansible Modules
 * Plays and Playbooks
 * Introduction to ansible roles
-* 
