@@ -1,4 +1,4 @@
-# DevOps Course Contents Listing 
+# DevOps Course Contents Listing
 
 [Continous Integration Course Contents](./ContinousIntegration/README.md)
 
