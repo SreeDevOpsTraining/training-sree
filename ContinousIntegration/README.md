@@ -1,4 +1,4 @@
-# Introudction to Continous Integration
+# Introduction to Continous Integration
 * Confidence in Code
 * CI as an Enabler
 * Benefits of Continuous Integration
