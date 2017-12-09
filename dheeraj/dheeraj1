@@ -1,0 +1,7 @@
+puts "Dheeraj Reddy".sub('Reddy','K')
+x="this is a test"
+puts x.sub(/^..../,'Hello')
+puts x.sub(/....$/,'Hello')
+"this is a method".scan(/..../) {|letter|  puts letter}
+
+"this is a method 100".scan(/\d/) {|letter|  puts letter}
