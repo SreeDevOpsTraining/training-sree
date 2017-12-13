@@ -1,0 +1,30 @@
+
+
+How we built a linux machine in virtual box.
+  - we have downloaded a virtualbox from website
+  - used standard windows method to install the VB in windows
+
+  - we installed virtualbox using VB GUI
+  - We also installed Linux box by creating a profile (assigning memory, cpu etc) manually
+  - We started Linux machine by choosing appropriate options on Virtualbox GUI/Linux head mode
+    - Press I to start installe
+    - Choose harddisk to install Linux OS
+    - Choose US-English as language
+    - Set root password etc.
+
+
+  Advance method to install all the above is :
+  - We choose to install virtualbox by chocolatey or brew for Mac.
+  - We choose to install Linux using Packer (more infrastructure as code)
+
+  We stored all our code (ex. packer template) in GitHub repository.
+  How
+    - we cloned the repo from github to local laptop
+    - we changed/created packer template and its dependencies (ks.cfg)
+    - we then saved contents (template.json) in git repo using
+      - git add --all  (add new or modified contents in git repo)
+      - git commit -m "" - save changed contents
+      - git push origin master - sends the commited contents to GitHub
+
+  We used rake (as a build tool) to run packer build instead using direct packer commands.
+    - rake helped us wrap commands inside rakefile so that we do not have to remember commands.
