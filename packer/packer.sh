@@ -1,1 +1,3 @@
-packer build template.json
+cd packer
+gem install bundler
+bundle install
