@@ -12,4 +12,10 @@
 * Post-processors: Vagrant
 * Pre-processors
 *
-  "guest_additions_path": "/Users/a3796/training-sree/Packer/VboxGuestAdditions_5.2.2.iso",
+
+
+We are building packer using rake builder
+Rake requirements
+1)  we need bundler to be installed - `gem install bundler` (gem executable is part of ruby install)
+2) create a Gemfile, is where you specify gems to be installed (refer gemfile for information)
+3) bundle install - will read gemfile and install gems specified in that file.
