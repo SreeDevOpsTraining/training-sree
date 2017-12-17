@@ -1,0 +1,44 @@
+{
+   "builders": [{
+       "type": "virtualbox-iso",
+       "guest_os_type": "RedHat_64",
+       "headless":"false",
+
+       "vboxmanage": [
+         ["modifyvm", "{{.Name}}", "--memory","4098"],
+         ["modifyvm", "{{.Name}}", "--cpus", "1"]
+       ],
+
+       "disk_size": "5000",
+       "Output_directory": "Build",
+
+       "iso_url": "D:/CentOS-7-x86_64-Minimal-1708.iso",
+       "iso_checksum": "5848f2fd31c7acf3811ad88eaca6f4aa",
+       "iso_checksum_type": "SHA1",
+
+       "ssh_username": "vagrant",
+       "ssh_password": "vagrant",
+       "ssh_timeout": "10m",
+
+       "shutdown_command": "echo packer| sudo -S shutdown -P now",
+
+       "boot_wait": "5s",
+       "http_directory": "C:/Users/Dheeraj/AppData/Local/atom/app-1.22.1/training-sree/dheeraj",
+       "boot_command": [
+         "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter>"
+       ]
+     }],
+
+    "provisioners": [
+       {
+           "type": "shell",
+           "inline": ["sudo yum install ruby -y"]
+       },
+
+       {
+           "type": "shell",
+           "inline": ["sudo yum install git -y"]
+       }
+    ]
+
+   }

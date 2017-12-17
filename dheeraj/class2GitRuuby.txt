@@ -1,0 +1,28 @@
+C:\Users\Dheeraj\AppData\Local\atom\app-1.22.1\training-sree\dheeraj>doskey /history
+cd C:\Users\Dheeraj\AppData\Local\atom\app-1.22.1
+git
+git clone https://github.com/SreeDevOpsTraining/training-sree.git
+cd C:\Users\Dheeraj\AppData\Local\atom\app-1.22.1\training-sree
+md dheeraj
+git status
+git add
+gti add dheeraj1
+cdc C:\Users\Dheeraj\AppData\Local\atom\app-1.22.1\training-sree\dheeraj
+cd C:\Users\Dheeraj\AppData\Local\atom\app-1.22.1\training-sree\dheeraj
+git add --all
+git status
+git commit -m "added files dheeraj1"
+git push origin master
+git pull
+git push origin master
+git status
+git commit -m "file added 12082017"
+git config --global user.email
+git config --global user.email "dheeraj_888@yahoo.com"
+git push origin master
+git status
+git config --global user.name "dheeraj"
+git commit
+git push
+history
+doskey /history
