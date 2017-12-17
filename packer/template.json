@@ -1,0 +1,45 @@
+{
+  "builders": [{
+      "type": "virtualbox-iso",
+      "guest_os_type": "RedHat_64",
+      "headless":"false",
+
+      "vboxmanage": [
+        ["modifyvm", "{{.Name}}", "--memory","4098"],
+        ["modifyvm", "{{.Name}}", "--cpus", "1"]
+      ],
+
+      "disk_size": "5000",
+      "Output_directory": "Build",
+
+      "iso_url": "/Users/a3796/Desktop/CentOS-7-x86_64-Minimal-1708.iso",
+      "iso_checksum": "aae20c8052a55cf179af88d9dd35f1a889cd5773",
+      "iso_checksum_type": "sha1",
+
+      "ssh_username": "vagrant",
+      "ssh_password": "vagrant",
+      "ssh_timeout": "10m",
+
+      "shutdown_command": "echo packer| sudo -S shutdown -P now",
+
+      "boot_wait": "5s",
+      "http_directory": "/Users/a3796/training-sree/Packer/http",
+      "boot_command": [
+        "<tab> text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/ks.cfg<enter>"
+      ]
+    }],
+
+   "provisioners": [
+      {
+          "type": "shell",
+          "inline": ["sudo yum install ruby -y"]
+      },
+
+      {
+          "type": "shell",
+          "inline": ["sudo yum install git -y"]
+      }
+   ]
+
+  }
+
