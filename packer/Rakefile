@@ -1,5 +1,0 @@
-# Create a rake task
-desc "This will build virtual machine using packer"
-  task :packer_build do
-      exec "packer build template.json"
-  end
