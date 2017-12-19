@@ -12,7 +12,7 @@
        ],
 
        "disk_size": "5000",
-       "Output_directory": "Build",
+       "Output_directory": "Builds",
 
        "iso_url":"c:/CentOS-7-x86_64-Minimal-1708.iso",
        "iso_checksum": "aae20c8052a55cf179af88d9dd35f1a889cd5773",
