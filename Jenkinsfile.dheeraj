@@ -1,0 +1,10 @@
+node{
+stage "check out"
+{
+checkout scm
+}
+stage "build"
+{
+bat 'dir'
+}
+}
