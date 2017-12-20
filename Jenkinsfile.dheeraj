@@ -1,8 +1,11 @@
 pipeline {
   agent { label 'master'}
+  stages
+ {
   
-    stage ('checkout') { checkout scm }
+    stage ('checkout') { steps {checkout scm }}
     
-    stage ('build') { bat 'echo testing....'}
+    stage ('build') { steps {bat 'echo testing....'}}
   }
 
+}
